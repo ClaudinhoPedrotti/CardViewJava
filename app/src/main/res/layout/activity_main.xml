@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Toolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <android.support.v7.widget.CardView
+    android:layout_width="380dp"
+        android:layout_gravity="center"
+    android:layout_height="150dp"
+
+        android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="San Diego"
+            android:layout_margin="30dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Location"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="77º"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:textSize="50dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_beach"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3:48PM"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="290dp"/>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Austin"
+            android:layout_margin="30dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texas"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="97º"
+            android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+            android:textSize="50dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_beach"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:48PM"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_wb_sun"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="290dp"/>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New York"
+            android:layout_margin="30dp"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New York"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:textSize="15dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="87º"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="70dp"
+            android:textSize="50dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_beach"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6:48PM"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp">
+
+        </TextView>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cloud"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="290dp"/>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
